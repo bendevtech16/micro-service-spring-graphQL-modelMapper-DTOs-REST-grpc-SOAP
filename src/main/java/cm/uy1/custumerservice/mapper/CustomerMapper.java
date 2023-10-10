@@ -14,8 +14,8 @@ public class CustomerMapper {
 
         // customer.setName(customerRequest.name());
         // customer.setEmail(customerRequest.email());
-        Customer customer1 = modelMapper.map(customerRequest, Customer.class);
-        return customer1;
+        return modelMapper.map(customerRequest, Customer.class);
+
     }
 
 }
